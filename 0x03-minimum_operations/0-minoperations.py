@@ -22,7 +22,7 @@ def minOperations(n):
             operations += 1
         if ch != n:
             ch = ch + cp
-            operations = operations 1
+            operations = operations + 1
         else:
             break
     return operations
